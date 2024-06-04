@@ -4,3 +4,8 @@
 
 [build.environment]
   PYTHON_VERSION = "3.8"
+
+[[redirects]]
+  from = "/"
+  to = "/templates/index.html"
+  status = 200
